@@ -1,0 +1,73 @@
+.predictor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding-top: 20px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    background-color: lightgrey;
+    width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 10px;
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .top{
+            color: blue;
+            font-size: 18px;
+        }
+    
+        .form{
+            form{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                width: 100%;
+                gap: 20px;
+                .employed{
+                    color: red;
+                    font-weight: bold;
+                }
+                
+                
+                input{
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    width: 30%;
+                    min-width: 100px;
+                }
+    
+                .select{
+                    display: flex;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                }
+    
+                button{
+                    padding: 10px 20px;
+                    font-weight: bold;
+                    background-color: blue;
+                    border: none;
+                    font-size: 20px;
+                    border-radius: 30px;
+                    max-width: 200px;
+                    align-self: center;
+                    color: white;
+                }
+            }
+    
+            .disclaimer{
+                font-style: italic;
+                font-weight: bold;
+                font-size: 15px;
+                max-width: 500px;
+            }
+        }
+        
+    }
+}
